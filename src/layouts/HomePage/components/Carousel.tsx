@@ -37,7 +37,7 @@ export const Carousel = () => {
                     img: responseData[key].img,
                 });
 
-                
+
             }
         };
         fetchBooks().catch((error: any) => {
@@ -48,7 +48,7 @@ export const Carousel = () => {
 
     if (isLoading) {
         return (
-            <SpinnerLoading/>
+            <SpinnerLoading />
         );
     }
 
